@@ -33,6 +33,10 @@
   border-radius: 8px;
   color: white;
 }
+.btn-primary:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
 
 main {
   max-width: 1440px;
@@ -115,6 +119,10 @@ main > section {
   margin-bottom: 20px;
   border-radius: 8px;
 }
+.feature-card:hover {
+  opacity: 0.7;
+  /* cursor: pointer; */
+}
 .feature-card .feature-title {
   font-weight: 600;
   font-size: 1.25rem;
@@ -161,6 +169,10 @@ main > section {
   justify-content: center;
   align-items: center;
 }
+.fact-card:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
 .fact-description {
   max-width: 540px;
 }
@@ -178,6 +190,20 @@ main > section {
   filter: grayscale(100%);
 }
 
+footer {
+  background-color: rgb(255, 244, 231);
+  max-width: 620px;
+  margin: 130px auto;
+  padding: 40px 410px;
+  text-align: center;
+}
+footer p {
+  color: rgb(66, 66, 66);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+}
 /* responsive media query  */
 @media screen and (max-width: 576px) {
   .navbar,
